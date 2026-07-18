@@ -33,14 +33,14 @@ const projects = [
 		live: 'https://mernjobportal-frontend.onrender.com',
 		accent: '#ed8a11',
 	},
-	{
-		title: 'AI Content Generator',
-		description: 'A modern AI-powered content generation platform with seamless integration, responsive design, and intuitive user interface. Features include real-time collaboration, customizable templates, and comprehensive analytics.',
-		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI','GEMINI AI'],
-		github: 'https://github.com/RAHUL-KAR-Kalyani/AI-Content-Generator',
-		live: 'https://ai-content-generator.onrender.com/',
-		accent: '#ed1195',
-	},
+	// {
+	// 	title: 'AI Content Generator',
+	// 	description: 'A modern AI-powered content generation platform with seamless integration, responsive design, and intuitive user interface. Features include real-time collaboration, customizable templates, and comprehensive analytics.',
+	// 	stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI','GEMINI AI'],
+	// 	github: 'https://github.com/RAHUL-KAR-Kalyani/AI-Content-Generator',
+	// 	live: 'https://ai-content-generator.onrender.com/',
+	// 	accent: '#ed1195',
+	// },
 ];
 
 export default function Projects() {
