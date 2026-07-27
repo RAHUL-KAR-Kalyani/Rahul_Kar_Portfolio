@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 const groups = [
 	{ category: 'Frontend & UI', color: '#06b6d4', skills: ['React.js', 'Redux Toolkit', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Framer Motion', 'ShadCN UI'] },
-	{ category: 'Backend', color: '#6366f1', skills: ['Node.js', 'Express.js', 'REST APIs','RBAC', 'MVC Architecture', 'Middleware Design', 'JWT Authentication'] },
-	{ category: 'Database & Security', color: '#10b981', skills: ['MongoDB', 'SQL', 'Zod Validation', 'bcrypt', 'Error Handling', 'Secure API Design'] },
-	{ category: 'Tools & DevOps', color: '#f59e0b', skills: ['Git / GitHub', 'Postman', 'Jest', 'Supertest', 'Render', 'Netlify', 'CI/CD', 'Vite'] },
+	{ category: 'Backend', color: '#6366f1', skills: ['Node.js', 'Express.js', 'REST APIs', 'RBAC', 'MVC Architecture', 'Middleware Design', 'JWT Authentication'] },
+	{ category: 'Database & Security', color: '#10b981', skills: ['MongoDB (NoSQL)', 'Redis', 'Zod Validation', 'bcrypt', 'Error Handling', 'Secure API Design'] },
+	{ category: 'Tools & DevOps', color: '#f59e0b', skills: ['Git / GitHub', 'Docker', 'Postman', 'Jest', 'Supertest', 'Render', 'Netlify', 'CI/CD', 'Vite'] },
 ];
 
 export default function Skills() {
