@@ -2,6 +2,22 @@ import { motion } from 'framer-motion';
 
 const projects = [
 	{
+		title: 'AI Content Generator',
+		description: 'A modern AI-powered content generation platform with seamless integration, responsive design, and intuitive user interface. Features include real-time collaboration, customizable templates, and comprehensive analytics.',
+		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI', 'GEMINI AI', 'Redis'],
+		github: 'https://github.com/RAHUL-KAR-Kalyani/AI-Content-Generator',
+		live: 'https://ai-content-generator-tprz.onrender.com',
+		accent: '#ff9b9b',
+	},
+	{
+		title: 'Health AI - Screening Platform',
+		description: 'An AI-powered health screening platform featuring context-aware voice and text workflows. Integrates Groq Llama 3.1 with STT/TTS services and REST APIs to generate real-time AI medical reports with asynchronous error handling.',
+		stack: ['React.js', 'Node.js', 'Express.js', 'Groq Llama 3.1', 'STT', 'TTS', 'LLM', 'REST APIs'],
+		github: 'https://github.com/RAHUL-KAR-Kalyani/Health_AI',
+		live: 'https://health-ai-ha1v.onrender.com',
+		accent: '#6aa84f',
+	},
+	{
 		title: 'TalentFlow - HRMS',
 		description: 'A comprehensive Human Resource Management System with employee attendance tracking, leave management workflows, and role-based access control. Features automated attendance processing using node-cron and secure multi-role JWT authentication.',
 		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux Toolkit'],
@@ -31,24 +47,8 @@ const projects = [
 		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
 		github: 'https://github.com/RAHUL-KAR-Kalyani/MernJobPortal',
 		live: 'https://mernjobportal-frontend.onrender.com',
-		accent: '#ed8a11',
-	},
-	{
-		title: 'AI Content Generator',
-		description: 'A modern AI-powered content generation platform with seamless integration, responsive design, and intuitive user interface. Features include real-time collaboration, customizable templates, and comprehensive analytics.',
-		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI', 'GEMINI AI', 'Redis'],
-		github: 'https://github.com/RAHUL-KAR-Kalyani/AI-Content-Generator',
-		live: 'https://ai-content-generator-tprz.onrender.com',
-		accent: '#ed1195',
-	},
-	{
-		title: 'Health AI - Screening Platform',
-		description: 'An AI-powered health screening platform featuring context-aware voice and text workflows. Integrates Groq Llama 3.1 with STT/TTS services and REST APIs to generate real-time AI medical reports with asynchronous error handling.',
-		stack: ['React.js', 'Node.js', 'Express.js', 'Groq Llama 3.1', 'STT', 'TTS', 'LLM', 'REST APIs'],
-		github: 'https://github.com/RAHUL-KAR-Kalyani/Health_AI',
-		live: 'https://health-ai-ha1v.onrender.com',
-		accent: '#fc2803',
-	},
+		accent: '#cd8b62',
+	}
 ];
 
 export default function Projects() {

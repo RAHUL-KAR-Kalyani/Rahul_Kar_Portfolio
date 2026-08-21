@@ -47,8 +47,8 @@ export default function Education() {
 								<h3 style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: 4 }}>Kalyani University</h3>
 								<p style={{ color: 'hsl(var(--primary))', fontWeight: 600, marginBottom: 16 }}>Bachelor of Commerce (B.Com)</p>
 								<div style={{ display: 'flex', flexWrap: 'wrap', gap: 16 }}>
-									<span style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))' }}>📅 Aug 2018 - Aug 2021</span>
-									<span style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))' }}>🏅 CGPA: 7.38</span>
+									<span style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))' }}>📅 Sept 2014 - May 2017</span>
+									<span style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))' }}>🏅 CGPA: 4.38</span>
 								</div>
 							</div>
 						</div>

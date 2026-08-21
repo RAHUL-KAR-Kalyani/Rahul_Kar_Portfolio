@@ -10,7 +10,7 @@ const jobs = [
 		],
 	},
 	{
-		title: 'Frontend Developer – Intern', company: 'Kashmiri Geeks Pvt. Ltd.', location: 'Remote – India', period: 'July 2021 – Jan 2022',
+		title: 'Frontend Developer - Intern', company: 'Kashmiri Geeks Pvt. Ltd.', location: 'Remote – India', period: 'July 2021 – Jan 2022',
 		points: [
 			'Developed responsive frontend features using React.js, JavaScript, and Redux.',
 			'Integrated REST APIs and implemented modular UI components for scalable development.',
