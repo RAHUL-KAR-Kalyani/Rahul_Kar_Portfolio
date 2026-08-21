@@ -6,7 +6,7 @@ const projects = [
 		description: 'A comprehensive Human Resource Management System with employee attendance tracking, leave management workflows, and role-based access control. Features automated attendance processing using node-cron and secure multi-role JWT authentication.',
 		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux Toolkit'],
 		github: 'https://github.com/RAHUL-KAR-Kalyani/TalentFlow-HRMS',
-		live: 'https://talentflow-hrms.onrender.com/',
+		live: 'https://talentflow-hrms.onrender.com',
 		accent: '#06b6d4',
 	},
 	{
@@ -14,7 +14,7 @@ const projects = [
 		description: 'A scalable image management platform supporting album creation, image uploads, secure sharing, and media organization workflows. Integrates Cloudinary for optimized media storage with robust access control.',
 		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Cloudinary'],
 		github: 'https://github.com/RAHUL-KAR-Kalyani/Gallery-Management-System',
-		live: 'https://gallery-management-system.onrender.com/',
+		live: 'https://gallery-management-system.onrender.com',
 		accent: '#6366f1',
 	},
 	{
@@ -22,7 +22,7 @@ const projects = [
 		description: 'A full-featured inventory and billing platform with stock tracking, low-stock alert management, and responsive admin dashboards. Includes analytics visualization for sales and revenue monitoring, tested with Jest and Supertest.',
 		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Chart.js'],
 		github: 'https://github.com/RAHUL-KAR-Kalyani/inventory-management-system',
-		live: 'https://inventory-management-cu9u.onrender.com/',
+		live: 'https://inventory-management-cu9u.onrender.com',
 		accent: '#10b981',
 	},
 	{
@@ -36,10 +36,18 @@ const projects = [
 	{
 		title: 'AI Content Generator',
 		description: 'A modern AI-powered content generation platform with seamless integration, responsive design, and intuitive user interface. Features include real-time collaboration, customizable templates, and comprehensive analytics.',
-		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI','GEMINI AI', 'Redis'],
+		stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Hugging Face AI', 'GEMINI AI', 'Redis'],
 		github: 'https://github.com/RAHUL-KAR-Kalyani/AI-Content-Generator',
-		live: 'https://ai-content-generator-tprz.onrender.com/',
+		live: 'https://ai-content-generator-tprz.onrender.com',
 		accent: '#ed1195',
+	},
+	{
+		title: 'Health AI - Screening Platform',
+		description: 'An AI-powered health screening platform featuring context-aware voice and text workflows. Integrates Groq Llama 3.1 with STT/TTS services and REST APIs to generate real-time AI medical reports with asynchronous error handling.',
+		stack: ['React.js', 'Node.js', 'Express.js', 'Groq Llama 3.1', 'STT', 'TTS', 'LLM', 'REST APIs'],
+		github: 'https://github.com/RAHUL-KAR-Kalyani/Health_AI',
+		live: 'https://health-ai-ha1v.onrender.com',
+		accent: '#fc2803',
 	},
 ];
 

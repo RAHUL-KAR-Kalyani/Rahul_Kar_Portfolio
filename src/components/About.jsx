@@ -17,7 +17,7 @@ export default function About() {
 
 	const facts = [
 		{ icon: '🎓', title: 'Education', sub: 'Master of Computer Application (MCA)' },
-		{ icon: '💼', title: 'Experience', sub: '2+ Years Freelance & Agency' },
+		{ icon: '💼', title: 'Experience', sub: '1+ Years Freelance & Agency' },
 		{ icon: '📍', title: 'Location', sub: 'Kolkata, West Bengal, India' },
 	];
 
