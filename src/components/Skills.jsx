@@ -65,10 +65,7 @@ export default function Skills() {
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
 					{/* Section Heading */}
 					<h2 style={{ fontSize: '2.2rem', fontWeight: 800, letterSpacing: '-0.02em', marginBottom: 48, display: 'flex', alignItems: 'center', gap: 12 }}>
-						<span style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '1.1rem', color: 'hsl(var(--primary))' }}>
-							02.
-						</span>
-
+						{/* <span style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '1.1rem', color: 'hsl(var(--primary))' }}>02.</span> */}
 						Skills
 						<div style={{ flex: 1, maxWidth: 200, height: 1, background: 'hsl(var(--border))', }} />
 					</h2>

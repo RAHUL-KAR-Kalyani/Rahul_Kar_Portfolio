@@ -25,7 +25,10 @@ export default function About() {
 		<section id="about" style={s.section}>
 			<div className="container" style={{ padding: '0 24px' }}>
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-100px' }} transition={{ duration: 0.5 }}>
-					<h2 style={s.heading}><span style={s.num}>01.</span> About Me <div style={s.line} /></h2>
+					<h2 style={s.heading}>
+						{/* <span style={s.num}>01.</span> */}
+						About Me <div style={s.line} />
+						</h2>
 					<div style={{ ...s.grid, gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
 						<div>
 							<p style={s.bio}>Hello! I'm Rahul, a passionate Full Stack Developer who enjoys building things that live on the internet. My interest in web development started with the realization that writing code is like solving puzzles — but with the added benefit of creating tools people can actually use.</p>

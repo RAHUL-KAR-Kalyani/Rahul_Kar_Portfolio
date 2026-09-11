@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 export default function Footer() {
 	return (
 		<footer style={{ padding: '40px 0', borderTop: '1px solid hsl(var(--border))' }}>
@@ -7,15 +11,15 @@ export default function Footer() {
 				</p>
 				<div style={{ display: 'flex', gap: 24 }}>
 					{[
-						{ label: 'GitHub', href: 'https://github.com/RAHUL-KAR-Kalyani' },
-						{ label: 'LinkedIn', href: 'https://linkedin.com/in/rahulkar26' },
-						{ label: 'Email', href: 'mailto:rahulkar.996@gmail.com' },
-					].map(({ label, href }) => (
-						<a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer"
-							style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))', textDecoration: 'none', transition: 'color 0.2s' }}
-							onMouseEnter={e => e.target.style.color = 'hsl(var(--primary))'}
-							onMouseLeave={e => e.target.style.color = 'hsl(var(--muted-foreground))'}>
-							{label}
+						{ icon: faGithub, href: 'https://github.com/RAHUL-KAR-Kalyani', color: "#fff", },
+						{ icon: faLinkedin, href: 'https://linkedin.com/in/rahulkar26', color: "#0A66C2" },
+						{ icon: faEnvelope, href: 'mailto:rahulkar.996@gmail.com', color: "#EA4335" },
+					].map(({ icon, href, color }) => (
+						<a key={icon} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" aria-label={icon} title={icon}
+							style={{ color: "hsl(var(--muted-foreground))", fontSize: "20px", display: "flex", alignItems: "center", transition: "color 0.2s" }}
+							onMouseEnter={(e) => e.currentTarget.style.color = color}
+							onMouseLeave={(e) => e.currentTarget.style.color = "hsl(var(--muted-foreground))"}>
+							<FontAwesomeIcon icon={icon} size='xl' />
 						</a>
 					))}
 				</div>

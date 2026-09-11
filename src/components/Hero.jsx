@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const titles = ['Full Stack Developer', 'MERN Stack Engineer', 'React & Node.js Specialist', 'Web Application Developer', 'Security-Focused Developer',];
 // const titles = ['Full Stack Developer', 'MERN Stack Engineer', 'React & Node.js Specialist', 'Software Engineer', 'Web Application Developer', 'Front-End Developer', 'Back-End Developer', 'UI/UX Enthusiast', 'Tech Innovator', 'Problem Solver', 'Code Artisan', 'Digital Creator', 'App Architect', 'Cloud Solutions Developer', 'Agile Practitioner', 'DevOps Advocate', 'Open Source Contributor', 'Performance Optimizer', 'Security-Focused Developer', 'Data-Driven Engineer'];
@@ -58,14 +61,15 @@ export default function Hero() {
 					</div>
 					<div style={s.socials}>
 						{[
-							{ label: 'GitHub', href: 'https://github.com/RAHUL-KAR-Kalyani' },
-							{ label: 'LinkedIn', href: 'https://linkedin.com/in/rahulkar26' },
-							{ label: 'Email', href: 'mailto:rahulkar.996@gmail.com' },
-						].map(({ label, href }) => (
-							<a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer" style={s.socialLink}
-								onMouseEnter={e => e.target.style.color = 'hsl(var(--primary))'}
-								onMouseLeave={e => e.target.style.color = 'hsl(var(--muted-foreground))'}>
-								{label}
+							{ icon: faGithub, href: 'https://github.com/RAHUL-KAR-Kalyani', color: "#fff", },
+							{ icon: faLinkedin, href: 'https://linkedin.com/in/rahulkar26', color: "#0A66C2" },
+							{ icon: faEnvelope, href: 'mailto:rahulkar.996@gmail.com', color: "#EA4335" },
+						].map(({ icon, href, color }) => (
+							<a key={icon} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" aria-label={icon} title={icon}
+								style={{ color: "hsl(var(--muted-foreground))", fontSize: "20px", display: "flex", alignItems: "center", transition: "color 0.2s" }}
+								onMouseEnter={(e) => e.currentTarget.style.color = color}
+								onMouseLeave={(e) => e.currentTarget.style.color = "hsl(var(--muted-foreground))"}>
+								<FontAwesomeIcon icon={icon} size='xl'/>
 							</a>
 						))}
 					</div>
