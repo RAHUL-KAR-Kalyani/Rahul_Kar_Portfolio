@@ -7,7 +7,7 @@ export default function Footer() {
 		<footer style={{ padding: '40px 0', borderTop: '1px solid hsl(var(--border))' }}>
 			<div className="container" style={{ padding: '0 24px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: 16 }}>
 				<p style={{ fontSize: '0.875rem', color: 'hsl(var(--muted-foreground))' }}>
-					Designed &amp; Built by <strong style={{ color: 'hsl(var(--primary))' }}>Rahul Kar</strong> · &copy; {new Date().getFullYear()}
+					Designed &amp; Built by <strong style={{ color: 'hsl(var(--primary))' }}>Rahul Kar</strong> · &reg; {new Date().getFullYear()}
 				</p>
 				<div style={{ display: 'flex', gap: 24 }}>
 					{[
