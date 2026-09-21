@@ -72,17 +72,19 @@ export default function Navbar() {
 				<div style={{ background: 'hsl(var(--card))', borderBottom: '1px solid hsl(var(--border))', padding: '16px 24px' }}>
 					{links.map(l => (
 						<a key={l.name} href={l.href} onClick={() => setMobileOpen(false)}
-							style={{ display: 'block', padding: '10px 0', color: 'hsl(var(--muted-foreground))', textDecoration: 'none', fontWeight: 500 }}>
+							style={{ display: 'block', padding: '10px 0', color: 'hsl(var(--muted-foreground))', textDecoration: 'none', fontWeight: 500, textAlign: 'center' }}>
 							{l.name}
 						</a>
 					))}
 				</div>
 			)}
 
-			<style>{`
-          @media (min-width: 768px) { .mobile-nav { display: none !important; } }
-          @media (max-width: 767px) { .desktop-nav { display: none !important; } }
-        `}</style>
+			<style>
+				{`
+          			@media (min-width: 768px) { .mobile-nav { display: none !important; } }
+          			@media (max-width: 767px) { .desktop-nav { display: none !important; } }
+        		`}
+			</style>
 		</header>
 	);
 }

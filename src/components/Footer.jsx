@@ -11,11 +11,11 @@ export default function Footer() {
 				</p>
 				<div style={{ display: 'flex', gap: 24 }}>
 					{[
-						{ icon: faGithub, href: 'https://github.com/RAHUL-KAR-Kalyani', color: "#fff", },
-						{ icon: faLinkedin, href: 'https://linkedin.com/in/rahulkar26', color: "#0A66C2" },
-						{ icon: faEnvelope, href: 'mailto:rahulkar.996@gmail.com', color: "#EA4335" },
-					].map(({ icon, href, color }) => (
-						<a key={icon} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" aria-label={icon} title={icon}
+						{ name: "github", icon: faGithub, href: 'https://github.com/RAHUL-KAR-Kalyani', color: "#fff", },
+						{ name: "linkedin", icon: faLinkedin, href: 'https://linkedin.com/in/rahulkar26', color: "#0A66C2" },
+						{ name: "email", icon: faEnvelope, href: 'mailto:rahulkar.996@gmail.com', color: "#EA4335" },
+					].map(({ name, icon, href, color }) => (
+						<a key={name} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" aria-label={name} title={name}
 							style={{ color: "hsl(var(--muted-foreground))", fontSize: "20px", display: "flex", alignItems: "center", transition: "color 0.2s" }}
 							onMouseEnter={(e) => e.currentTarget.style.color = color}
 							onMouseLeave={(e) => e.currentTarget.style.color = "hsl(var(--muted-foreground))"}>
