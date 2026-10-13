@@ -90,9 +90,10 @@ export default function Skills() {
 								{/* Skills */}
 								<div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
 									{g.skills.map(sk => (
-										<motion.span key={sk} whileHover={{ y: -3, scale: 1.05, color: g.color, borderColor: `${g.color}80`, boxShadow: `0 4px 12px ${g.color}15`, }}
-											transition={{ duration: 0.15 }} style={{ padding: '4px 12px', fontSize: '0.8rem', fontWeight: 500, borderRadius: 99, background: 'hsl(var(--background)/0.7)',
-											border: '1px solid hsl(var(--border)/0.5)', color: 'hsl(var(--foreground)/0.8)', cursor: 'default', transition: 'color 0.15s, border-color 0.15s, box-shadow 0.15s' }}>
+										<motion.span key={sk} whileHover={{y: -3, scale: 1.05, color: g.color, borderColor: `${g.color}80`, boxShadow: `0 4px 12px ${g.color}15`,}}
+  										transition={{ duration: 0.15 }} style={{padding: '4px 12px', fontSize: '0.8rem', fontWeight: 500, borderRadius: 99,
+										background: 'hsl(var(--background)/0.7)', border: '1px solid hsl(var(--border)/0.5)', color: 'hsl(var(--foreground)/0.8)',
+										cursor: 'default',transition:'color 0.15s, border-color 0.15s, box-shadow 0.15s'}}>
 											{sk}
 										</motion.span>
 									))}
